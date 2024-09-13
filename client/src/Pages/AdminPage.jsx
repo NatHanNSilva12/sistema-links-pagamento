@@ -8,7 +8,7 @@ const AdminPage = () => {
   const [password, setPassword] = useState('');
   const [authenticated, setAuthenticated] = useState(false);
 
-  const correctPassword = 'A$8d/"$!9o7;Up({'; 
+  const correctPassword = ''; 
 
   const handlePasswordSubmit = (e) => {
     e.preventDefault();
