@@ -1,0 +1,87 @@
+.admin-page {
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 12%;
+
+}
+
+.admin-page h1 {
+  color: rgb(36, 36, 36);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-page label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.admin-page input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.admin-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.admin-page button:hover {
+  background-color: #0056b3;
+}
+
+.admin-page .link-container {
+  margin-top: 20px;
+}
+
+.admin-page .link-container p {
+  font-size: 1em;
+  color: #555;
+}
+
+.admin-page .link-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.admin-page .link-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .admin-page {
+    padding: 10px;
+  }
+
+  .admin-page label {
+    font-size: 1em;
+  }
+
+  .admin-page input[type="number"] {
+    font-size: 0.9em;
+  }
+
+  .admin-page button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+}
