@@ -1,6 +1,7 @@
 # Sistema de Geração de Links e Pagamentos
 
 ![Imagem do Projeto](imagem.png)
+![Imagem do Projeto](imagem2.png)
 
 Um sistema para gerar links de pagamento e processar transações de forma fácil e segura. Permite a criação de links personalizados para pagamento, que podem ser enviados para clientes. O cliente preenche um formulário e é redirecionado para uma página de pagamento.
 
