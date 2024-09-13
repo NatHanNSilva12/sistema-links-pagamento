@@ -20,7 +20,7 @@ Siga os passos abaixo para instalar e rodar o projeto localmente.
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/usuario/sistema-geracao-links-pagamentos.git
+    https://github.com/NatHanNSilva12/sistema-links-pagamento.git
     ```
 
 2. Navegue até o diretório do backend:
